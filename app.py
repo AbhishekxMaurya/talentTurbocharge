@@ -9,6 +9,12 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import pickle
 
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+
 app = Flask(__name__)
 
 # Load the dataset
