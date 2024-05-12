@@ -93,6 +93,3 @@ def redirect_url():
     # Redirect to the desired URL
     return redirect("https://docs.google.com/spreadsheets/d/19E857TiOliXkFhO421lnQxP-z--rOfzCGklHL7gJjAY/edit?usp=sharing")  # Replace "https://example.com" with the desired URL
 
-
-if __name__ == '__main__':
-    app.run(debug=True)
