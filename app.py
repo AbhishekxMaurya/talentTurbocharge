@@ -18,7 +18,7 @@ nltk.download('wordnet')
 app = Flask(__name__)
 
 # Load the dataset
-df = pd.read_csv('C:/Users/maury/Desktop/Code/project/Job matching model/flask_app/UpdatedResumeDataSet.csv')
+df = pd.read_csv('UpdatedResumeDataSet.csv')
 
 df['Merged'] = df['Category'] + ': ' + df['Resume']
 
